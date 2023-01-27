@@ -44,8 +44,7 @@ list-style: none;
 justify-content: space-between;
 `;
 
-export const ProfileItem = styled.li` 
-display: block;  
+export const ProfileItem = styled.li`   
 font-weight: 400;
 font-size: 15px;
 `;
