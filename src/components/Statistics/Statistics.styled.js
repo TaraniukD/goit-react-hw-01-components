@@ -4,7 +4,7 @@ export const StatSection = styled.section`
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 30px;
-width: 294px;
+width: 320px;
 text-align: center;
 border: 1px solid  rgb(1, 1, 1);
 border-radius: 10px;
@@ -25,6 +25,7 @@ width: calc((100% - 24px)/5);
 padding: 6px;
 border: 1px solid  rgb(1, 1, 1);
 border-radius: 10px;
+cursor: pointer;
 `;
 
 export const SpanLabel = styled.span`   
