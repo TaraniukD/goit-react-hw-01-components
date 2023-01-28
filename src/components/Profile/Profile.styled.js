@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const ProfileContainer = styled.div`   
-margin-top: 30px;
+margin: 30px auto;
+width: 262px;
 text-align: center;
 padding: 20px 15px;
 border: 1px solid  rgb(1, 1, 1);
