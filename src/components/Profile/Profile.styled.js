@@ -9,6 +9,12 @@ border: 1px solid  rgb(1, 1, 1);
 border-radius: 10px;
 background-color: #e1efef;
 box-shadow: 0px 0px 8px 5px rgb(0 0 0 / 20%);
+cursor: pointer;
+scale: 1;
+&:hover,
+&:focus {
+    scale: 1.05;
+}
 `;
 
 export const ProfileUserContainer = styled.div`   

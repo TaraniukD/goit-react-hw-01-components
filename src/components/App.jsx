@@ -2,14 +2,24 @@
 import { Profile } from "components/Profile/Profile";
 import { Statistics} from "components/Statistics/Statistics";
 import { FriendList } from "components/FriendList/FriendList";
+import { TransactionHistory } from "components/TransactionHistory/TransactionHistory";
 
 import user from '../user.json';
 import data from '../data.json';
 import friends from '../friends.json';
+import transactions from "../transactions.json";
 
 export const App = () => {
   return (
-    <div>
+    <div style={{    
+      width: '1200px',
+      margin: '0 auto',
+      backgroundColor: '#f5f1f0',
+      padding: '30px',
+      border: '1px solid #f5f1f0',
+      borderRadius: '10px'
+      }}>
+
       <Profile 
       key={user.username} 
       username={user.username}
@@ -22,7 +32,9 @@ export const App = () => {
        <Statistics title="Upload stats" stats={data}/>
        <Statistics stats={data} />
 
-       <FriendList friends={friends} />;
+       <FriendList friends={friends} />
+
+       <TransactionHistory items={transactions} />
 
     </div>
   );

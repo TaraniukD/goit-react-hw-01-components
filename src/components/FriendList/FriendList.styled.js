@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const FriendsList = styled.ul`
 width: 220px;
@@ -23,6 +23,11 @@ border: 1px solid  rgb(1, 1, 1);
 border-radius: 10px;
 box-shadow: 0px 0px 6px 2px rgb(0 0 0 / 20%);
 cursor: pointer;
+scale: 1;
+&:hover,
+&:focus {
+    scale: 1.05;
+}
 `;
 
 export const FriendsImg = styled.img`   

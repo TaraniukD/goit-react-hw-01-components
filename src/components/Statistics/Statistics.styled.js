@@ -26,6 +26,11 @@ padding: 6px;
 border: 1px solid  rgb(1, 1, 1);
 border-radius: 10px;
 cursor: pointer;
+scale: 1;
+&:hover,
+&:focus {
+    scale: 1.05;
+}
 `;
 
 export const SpanLabel = styled.span`   
